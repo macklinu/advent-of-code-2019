@@ -1,5 +1,5 @@
 fun fuelRequired(mass: Int): Int {
-  return mass.div(3) - 2
+  return (mass / 3) - 2
 }
 
 fun totalFuelRequirements(initialMass: Int): Int {
